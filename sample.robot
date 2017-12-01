@@ -25,7 +25,7 @@ TC3_For-Loop-Exiting
 TC4_Repeat-Action
     Repeat Keyword    2    Log    Repeating this ...
 
-Run-Keyword-If
+TC5_Run-Keyword-If
     ${TYPE}=    Set Variable    V1
     Run Keyword If    '${TYPE}' == 'V1'    Log     Testing Variant 1
     Run Keyword If    '${TYPE}' == 'V2'    Log    Testing Variant 2
