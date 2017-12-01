@@ -22,7 +22,7 @@ TC3_For-Loop-Exiting
     \    Run Keyword If    '${ELEMENT}' == 'Break On Me'    Exit For Loop
     \    Log    Do more actions here ...
 
-Repeat-Action
+TC4_Repeat-Action
     Repeat Keyword    2    Log    Repeating this ...
 
 Run-Keyword-If
