@@ -2,14 +2,14 @@
 Library           String
 
 *** Test Cases ***
-TC1_For-Loop-In-Range
+TestCase1_For-Loop-In-Range
     : FOR    ${INDEX}    IN RANGE    1    3
     \    Log    ${INDEX}
     \    ${RANDOM_STRING}=    Generate Random String    ${INDEX}
     \    Log    ${RANDOM_STRING}
     \    Log Something to show
 
-TC2_For-Loop-Elements
+TestCase2_For-Loop-Elements
     @{ITEMS}    Create List    Star Trek    Star Wars    Perry Rhodan
     :FOR    ${ELEMENT}    IN    @{ITEMS}
     \    Log    ${ELEMENT}
