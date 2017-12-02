@@ -2,7 +2,7 @@
 Library           String
 
 *** Test Cases ***
-TC1_For-Loop-In-Range
+TestCase1_For-Loop-In-Range
     : FOR    ${INDEX}    IN RANGE    1    3
     \    Log    ${INDEX}
     \    ${RANDOM_STRING}=    Generate Random String    ${INDEX}

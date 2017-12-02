@@ -9,7 +9,7 @@ TC1_For-Loop-In-Range
     \    Log    ${RANDOM_STRING}
     \    Log Something to show
 
-TC2_For-Loop-Elements
+TestCase2_For-Loop-Elements
     @{ITEMS}    Create List    Star Trek    Star Wars    Perry Rhodan
     :FOR    ${ELEMENT}    IN    @{ITEMS}
     \    Log    ${ELEMENT}
